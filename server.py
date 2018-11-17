@@ -331,7 +331,7 @@ if os.path.isfile("scoreboard.csv"):
     with open("scoreboard.csv", "r") as file:
         for line in file.readlines():
             try:
-                entry = map(lambda x: x.replace("„", ","), line.split(","))
+                entry = list(map(lambda x: x.replace("„", ","), line.split(",")))
                 entry[2:9] = map(int, entry[2:9])
                 entry[9] = float(entry[9])
                 scoreboard.append(entry)
