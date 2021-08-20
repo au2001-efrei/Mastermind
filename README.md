@@ -1,3 +1,15 @@
+# Features
+
+- Play locally against the computer
+  - Interrupt games and resume them using a token; can be on the same computer or a different one
+- Play online and save your record on a scoreboard
+  - Enter a unique username to identify yourself
+  - Custom game protocol implemented over TCP
+  - Interrupt games and resume them automatically (based on IP address)
+- Make the computer play automatically with an A.I.
+  - Tool to benchmark the computer: ~4.63 tries on average, 8 maximum (4 pins and 6 colors)
+- Several easter eggs hidden around the program
+
 # Installation
 
 - You will need to have Python 3.7.0 or later installed
